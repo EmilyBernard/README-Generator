@@ -1,13 +1,17 @@
-// TODO: Create a function to generate markdown for README
+// Function generates markdown for README in .dist folder
 function generateMarkdown(data) {
   return `# ${data.title}
 
   ## Description
-  ${data.description}
+  \`\`\`
+  ${data.description1}
   ${data.description2}
+  \`\`\`
 
-  ## Deployed Project
+  ## Deployed Project 
+  \`\`\`
   ${data.deployed}
+  \`\`\`
 
   ## Table of Contents
 
@@ -20,32 +24,34 @@ function generateMarkdown(data) {
   * [Test](#test)
 
   ${renderLink(data.license)}
+  <br>
 
-  
-  ## Installations
-  
-  To install run these commands:
-  
-  \`\`\`
-  ${data.install}
-  \`\`\`
+## Installations
 
-  ## Usage
+To install run these commands:
 
-  ${data.usage}
+\`\`\`
+${data.install}
+\`\`\`
 
-  ## Contributors
+## Usage
+\`\`\`
+${data.usage}
+\`\`\`
 
-  ${data.contributors1}
-  ${data.contributors2}
+## Contributors
+\`\`\`
+${data.contributors1}
+${data.contributors2}
+\`\`\`
 
-  ## Test
+## Test
 
-  To run tests, use these commands:
+To run tests, use these commands:
 
-  \`\`\`
-  ${data.test}
-  \`\`\`
+\`\`\`
+${data.test}
+\`\`\`
 
 ${renderSection(data.license)}
 ${renderBadge(data.license)}
@@ -73,7 +79,7 @@ function renderLink(license) {
 return ''
 }
 
-//Function that returns the license section of README. If there is no license, returns an empty string
+//Function returns the license section of README. If there is no license, returns an empty string
 function renderSection(license) {
   if (license !=="None") {
     return (
