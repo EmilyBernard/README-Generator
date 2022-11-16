@@ -11,18 +11,18 @@ function generateMarkdown(data) {
 
   ## Table of Contents
 
-  *[Installations](#install)
+  * [Installations](#installations)
 
-  *[Usage](#usage)
-
-  ${renderLink(data.license)}
-
-  *[Contributors](#contributors)
+  * [Usage](#usage)
   
-  *[Test](#test)
+  * ${renderLink(data.license)}
+  
+  * [Contributors](#contributors)
+  
+  * [Test](#test)
 
   ## Installations
-
+  
   To install run these commands:
   
   \`\`\`
@@ -33,7 +33,7 @@ function generateMarkdown(data) {
 
   ${data.usage}
 
-  ## Authors and Acknowledgement (#contributors)
+  ## Contributors
 
   ${data.contributors1}
   ${data.contributors2}
@@ -46,7 +46,8 @@ function generateMarkdown(data) {
   ${data.test}
   \`\`\`
 
-
+${renderSection(data.license)}
+${renderBadge(data.license)}
 
 `;
 }

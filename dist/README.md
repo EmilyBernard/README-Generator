@@ -1,27 +1,27 @@
-# x
+# 
 
   ## Description
   undefined
-  x
+  
 
   ## Deployed Project
-  x
+  
 
   ## Table of Contents
 
-  *[Installations](#install)
+  * [Installations](#installations)
 
-  *[Usage](#usage)
-
+  * [Usage](#usage)
+  
   
 * [License](#license)
 
-
-  *[Contributors](#contributors)
   
-  *[Test](#test)
+  * [Contributors](#contributors)
+  
+  * [Test](#test)
 
-  ## Installations
+  ## Installations(#installations)
 
   To install run these commands:
   
@@ -33,10 +33,10 @@
 
   
 
-  ## Authors and Acknowledgement (#contributors)
+  ## Contributors
 
   
-  x
+  
 
   ## Test
 
@@ -46,5 +46,10 @@
   npm test
   ```
 
-
+## License 
+      
+      Copyright © APACHE2.0. All rights reserved.
+      
+      Licensed under the APACHE2.0 license.
+![GitHub license](https://img.shields.io/badge/license-APACHE2.0-blue.svg)
 
