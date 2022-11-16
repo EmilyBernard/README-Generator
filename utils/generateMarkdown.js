@@ -15,12 +15,13 @@ function generateMarkdown(data) {
 
   * [Usage](#usage)
   
-  * ${renderLink(data.license)}
-  
   * [Contributors](#contributors)
   
   * [Test](#test)
 
+  ${renderLink(data.license)}
+
+  
   ## Installations
   
   To install run these commands:
