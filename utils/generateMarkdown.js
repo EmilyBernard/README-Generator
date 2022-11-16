@@ -21,7 +21,31 @@ function generateMarkdown(data) {
   
   *[Test](#test)
 
-  ##Installations
+  ## Installations
+
+  To install run these commands:
+  
+  \`\`\`
+  ${data.install}
+  \`\`\`
+
+  ## Usage
+
+  ${data.usage}
+
+  ## Authors and Acknowledgement (#contributors)
+
+  ${data.contributors1}
+  ${data.contributors2}
+
+  ## Test
+
+  To run tests, use these commands:
+
+  \`\`\`
+  ${data.test}
+  \`\`\`
+
 
 
 `;
@@ -30,7 +54,7 @@ function generateMarkdown(data) {
 
 
 // Function returns a license badge based on license user chooses. If there is no license, returns an empty string
-function renderLicenseBadge(license) {
+function renderBadge(license) {
   if (license !== "None") {
     return `![GitHub license](https://img.shields.io/badge/license-${license}-blue.svg)`
   }
@@ -38,7 +62,7 @@ function renderLicenseBadge(license) {
 }
 
 // Function returns the license link. If there is no license, returns an empty string
-function renderLicenseLink(license) {
+function renderLink(license) {
   if (license !== "None") {
     return (
     `\n* [License](#license)\n`
@@ -48,7 +72,7 @@ return ''
 }
 
 //Function that returns the license section of README. If there is no license, returns an empty string
-function renderLicenseSection(license) {
+function renderSection(license) {
   if (license !=="None") {
     return (
       `## License 
