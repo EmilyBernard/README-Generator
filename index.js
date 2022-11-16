@@ -11,7 +11,7 @@ const questions = [
     {
         type: "input",
         name: "title",
-        message: "What's the name of your project?"
+        message: "What's the name or title of your project?"
     },
     {
         type: "input",
@@ -21,7 +21,7 @@ const questions = [
     {
         type: "input",
         name: "description2",
-        message: "Describe why you created this project:"
+        message: "Describe why you created this project or what problem it solves:"
     },
     {
         type: "input",
@@ -31,7 +31,7 @@ const questions = [
     {
         type: "input",
         name: "install",
-        message: "Any Install Instructions? (i.e. npm i)",
+        message: "Any Install Instructions?",
         default: "npm i"
     },
     {
@@ -47,7 +47,7 @@ const questions = [
     {
         type: "input",
         name: "contributors2",
-        message: "List any materials or websites you referenced while creating this project:",
+        message: "List any websites you referenced while creating this project:",
     },
     {
         type: "input",
@@ -64,12 +64,12 @@ const questions = [
     {
         type: "input",
         name: "github",
-        message: "What's your Github username?"
+        message: "What's your GitHub username?"
     },
     {
         type: "input",
         name: "email",
-        message: "What's your email?"
+        message: "What's your email address?"
     },
 ];
 

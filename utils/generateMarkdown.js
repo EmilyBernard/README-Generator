@@ -23,6 +23,8 @@ function generateMarkdown(data) {
   
   * [Test](#test)
 
+  * [Contact Me](#contact-me)
+
   ${renderLink(data.license)}
   <br>
 
@@ -55,6 +57,12 @@ ${data.test}
 
 ${renderSection(data.license)}
 ${renderBadge(data.license)}
+<br>
+
+## Contact Me
+
+My GitHub Username:  ${data.github} <br>
+My email: ${data.email}
 
 `;
 }
