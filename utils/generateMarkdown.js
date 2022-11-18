@@ -8,11 +8,6 @@ function generateMarkdown(data) {
   ${data.description2}
   \`\`\`
 
-  ## Deployed Project 
-  \`\`\`
-  ${data.deployed}
-  \`\`\`
-
   ## Table of Contents
 
   * [Installations](#installations)
@@ -23,7 +18,7 @@ function generateMarkdown(data) {
   
   * [Test](#test)
 
-  * [Contact Me](#contact-me)
+  * [Questions](#questions)
 
   ${renderLink(data.license)}
   <br>
@@ -59,10 +54,15 @@ ${renderSection(data.license)}
 ${renderBadge(data.license)}
 <br>
 
-## Contact Me
+## Questions
 
-My GitHub Username:  ${data.github} <br>
+Contact me if you have any questions about my projct:
+
+My GitHub Username: ${data.github}<br> 
+My GitHub Profile:  ${data.githublink}
+  
 My email: ${data.email}
+
 
 `;
 }

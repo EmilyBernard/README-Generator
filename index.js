@@ -25,11 +25,6 @@ const questions = [
     },
     {
         type: "input",
-        name: "deployed",
-        message: "Paste the URL of your deployed project here:"
-    },
-    {
-        type: "input",
         name: "install",
         message: "Any Install Instructions?",
         default: "npm i"
@@ -65,6 +60,11 @@ const questions = [
         type: "input",
         name: "github",
         message: "What's your GitHub username?"
+    },
+    {
+        type: "input",
+        name: "githublink",
+        message: "Paste a link to your GitHUb profile here:"
     },
     {
         type: "input",

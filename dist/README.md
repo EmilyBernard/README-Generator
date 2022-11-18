@@ -1,14 +1,9 @@
-# Mine
+# README Generator
 
   ## Description
   ```
-  Stuff
-  Reasons
-  ```
-
-  ## Deployed Project 
-  ```
-  www.whtever.com
+  This generates a README from user input in the console.
+  A user can quickly generate a professional README file for their projects.
   ```
 
   ## Table of Contents
@@ -21,7 +16,7 @@
   
   * [Test](#test)
 
-  * [Contact Me](#contact)
+  * [Questions](#questions)
 
   
 * [License](#license)
@@ -38,13 +33,13 @@ npm i
 
 ## Usage
 ```
-Ways
+When a user want to generate a professional README file that is well formatted, they can create it quickly by answering the prompts in the console.
 ```
 
 ## Contributors
 ```
-Mike B, Randy Savage
-www.geeks.com, 
+Class activity files from Module 9
+https://stackoverflow.com/
 ```
 
 ## Test
@@ -63,8 +58,13 @@ npm test
 ![GitHub license](https://img.shields.io/badge/license-BSD3-blue.svg)
 <br>
 
-## Contact Me
+## Questions
 
-My GitHub Username:  EmB <br>
+Contact me if you have any questions about my projct:
+
+My GitHub Username: EmilyBernard<br> 
+My GitHub Profile:  https://github.com/EmilyBernard
+  
 My email: bernam2000@hotmail.com
+
 
